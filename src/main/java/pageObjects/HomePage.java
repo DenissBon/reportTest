@@ -16,10 +16,10 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-@FindBy(xpath = "")
+@FindBy(xpath = "/html/body/div[3]/header/div/div/div[2]/nav/div[5]/a")
     public WebElement menuOption;
 
-@FindBy(xpath = "")
+@FindBy(xpath = "/html/body/div[3]/header/div/div/div[2]/nav/div[5]/div/ul/li[1]/a")
     public WebElement subMenuOption;
 
 
